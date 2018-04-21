@@ -1,11 +1,11 @@
 h1 {
-font-size: 30px;
-background-color: rgb(120,30,40);
-color: #fafffa;
-text-align: center;
-font-family: "Open Sans", "Arial", sans-serif;
+	font-size: 30px;
+	background-color: rgb(120,30,60);
+	color: #fafffa;
+	text-align: center;
+	font-family:  'Ubuntu', 'Oswald', "Arial", sans-serif;
 }
 h2 {
-font-size: 20px;
-font-family: "Open Sans", "Arial", sans-serif;
+	font-size: 20px;
 }
+
