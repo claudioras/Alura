@@ -1,4 +1,4 @@
-h1 {
+main h1 {
 	font-size: 30px;
 	background-color: rgb(120,30,60);
 	color: #fafffa;
@@ -7,5 +7,6 @@ h1 {
 }
 h2 {
 	font-size: 20px;
+        font-family: 'Oswald', "Arial", sans-serif;
 }
 
