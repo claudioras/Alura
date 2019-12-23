@@ -1,0 +1,12 @@
+Passos para instalar o typescript
+
+1) Para criar o arquivo package.json
+   npm init
+2) Para instalar o typescript. Após a instalação será criada a pasta node_modules com o tsc que é o compilador do typescript
+   npm install typescript@2.3.2 --save-dev
+3) Para compilar deve-se executar o comando abaixo, onde "compileKhall" foi definido no arquivo package.json
+   npm run compileKhall
+4) "start" foi configurado no arquivo package.json e é usado para automatizar a compilação.
+   npm start
+5) o atributo abaixo definido no arquivo tsconfig.json serve para impedir a tipagem automática durante a compilação
+   "noImplicitAny": true

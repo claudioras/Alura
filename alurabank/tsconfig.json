@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es6",          //o compilador traduzirá para o es6, mas poderia ser para o es5 por exemplo
+        "outDir": "app/js",       //gera os arquivos em js nesta pasta
+        "noEmitOnError": true,    //não cria a saída js enquanto houver erro de compilação.
+        "noImplicitAny": true     //desabilita o tipo Any automático na definição das variáveis
+    },
+    "include": [
+        "app/ts/**/*"             //local de origem dos arquivos Typescript a serem convertidos em Javascript
+    ]
+}
